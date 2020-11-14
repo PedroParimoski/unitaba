@@ -1,0 +1,122 @@
+.footer {
+    background-color: #3498DB;
+    height: 850px;
+    width: 100%;
+    justify-content: center;
+    >div {
+        flex-direction: column;
+        width: 100%;
+        max-width: 1366px;
+        .wrap-footer {
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-height: 300px;
+            
+            ul {
+                flex-direction: column;
+                padding: 0;
+                li {
+                    h2 {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 26px;
+                        font-weight: bold;
+                        color: var(--white);
+                    }
+                    a {
+                        font-size: 24px;
+                        text-decoration: none;
+                        color: var(--white);
+                        margin-top: var(--space);
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+    
+                }
+            }
+            .wrap-footer-center {
+                color: var(--white);
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                span {
+                    font-size: 14px;
+                }
+                .logo-footer {
+                    > img {
+                        width: 200px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .address-footer {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;                
+                }
+                .copy-footer {
+                    flex-direction: column;
+                    margin-top: 10px;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+            }
+           
+        }
+
+    }
+    
+
+
+
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        max-height: 300px;
+        color: var(--white);
+        >div {
+            flex-direction: row;
+            .wrap-footer {
+                flex: 1;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                ul {                
+                    li {
+                        h2 {
+                            font-size: 20px;
+                        }
+                        a {
+                            text-decoration: none;
+                            font-size: 18px;
+                            color: var(--white);
+                            margin-top: var(--space);
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+        
+                    }
+                }
+            }
+
+        }
+        
+        
+        
+    }
+    
+
+
+
+}
+

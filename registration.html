@@ -48,100 +48,85 @@
     </a>
 
     </header>
-    <main id="home">
-        <div class="banner">
-            <div class="squarebanner">
-                <div class="textbanner">
-                    <h1>Matriculas Abertas</h1>
-                    <h2>1º Semestre 2021</h2>
-                     <a href="registration.html" alt="Matricule-se">Clique Aqui</a>
+    <main id="registration">
+        <div>            
+            <div class="wrapform">
+                <div class="title">
+                    <h3>Faça sua Pré-Matricula</h3>
                 </div>
-            </div>
-        </div>
-        
-        <div class="wraphome">
-            <div class="title">
-                <h3>Graduações em Destaque</h3>
-            </div>
-            <div class="graduate">
-                <a href="adm.html">
-                    <div class="course">
-                        <img src="assets/images/course/adm.jpg" alt="Administração">
-                        <div class="coursename">
-                            <span>Administração</span>  
-                        </div>
+                <form action="">
+                    <div class="field">
+                        <label for="branch">Escolha sua graduação
+                            <select name="selectcourse" id="selectcourse">
+                                <option value="ADM">Administração </option>
+                                <option value="ENF">Enfermagem</option>
+                                <option value="FAR">Farmácia</option>
+                                <option value="EDF">Educação Física</option>
+                                <option value="MAT">Matemática</option>
+                                <option value="PED">Pedagocia</option>
+                            </select>
+
+                        </label>
+                        
                     </div>
-                 </a>
-                 <a href="edf.html">
-                    <div class="course">
-                        <img src="assets/images/course/edfisica.jpg" alt="Educação Física">
-                        <div class="coursename">
-                            <span>Educação Física</span>  
-                        </div>
+                    <div class="field">
+                        <label for="name">Digite seu nome:
+                            <input type="text" name="name" id="name" required/>
+                        </label>
+                        
                     </div>
-                 </a>
-                 <a href="far.html">
-                    <div class="course">
-                        <img src="assets/images/course/farmacia.jpg" alt="Farmácia">
-                        <div class="coursename">
-                            <span>Farmácia</span>  
+                    
+                   <div class="fields">
+                    <div class="field">
+                        <label for="phone">Telefone de Contato:
+                            <input type="phone" name="phone" id="phone" required/>
+
+                        </label>
+                    </div>
+                    <div class="field">
+                        <label for="date">Data de Nascimento:
+                            <input type="date" name="datebirth" id="datebirth" required/>
+
+                        </label>
+                    </div>
+                    <div class="fields"></div>
+                        <div class="field">
+                            <label for="addressnum">Numero:
+                                <input type="number" name="addressnum" id="addressnum" required/>
+
+                            </label>
+                        </div>
+                        <div class="field">
+                            <label for="neighborhood">Bairro:
+                                <input type="text" name="neighborhood" id="neighborhood" required/>
+
+                            </label>
+                        </div>
+                        <div class="field">
+                            <label for="city">Cidade:
+                                <input type="text" name="city" id="city" required/>
+    
+                            </label>
                         </div>
                         
                     </div>
-                </a>
-            </div>
-            <a href="graduate.html">Mais Graduações</a>
-        </div>
-        <div class="mec">
-            <img src="assets/images/mec.svg" alt="MEC">
-            <h4>                
-                &nbsp; Cursos reconhecidos pelo MEC
-            </h4>
-        </div>
-        <div class="wraphome" id="newsstart">
-            <div class="title">
-                <h3>Notícias - Blog</h3>
-            </div>
-            <div class="news">
-                <div class="imgnews">
-                    <img src="assets/images/news/rematricula.jpg" alt="">
-                </div>
-                <div class="textnews">
-                    <h5>Rematricula </h5> 
-                    <span>
-                        A UNITABA - Faculdade de Tabatinga adiou a rematricula que era até o dia 10/11/2020, para a nova data 30/11/2020, e será feito de maneira online para comodidade e segurança de nossos alunos. Todos os alunos precisam preencher o formulario e reenviar os documentos atualizados até a data limite.
-                    </span> 
-                    <span class="newdate"> Postado em: 08/11/2020</span> 
-                </div>
-            </div>
-            <div class="news">
-                <div class="imgnews">
-                    <img src="assets/images/news/enfermagem.jpg" alt="Alunos do Curso de Enfermagem">
-                </div>
-                <div class="textnews">
-                    <h5>Alunos do curso de Enfermagem da UNITABA realizam ação voluntária.</h5> 
-                    <span>
-                        No dia 25 de outubro, no bairro Jardim Alvorada, em Tabatinga, os alunos do Curso de Graduação em Enfermagem da UNITABA - Faculdade de Tabatinga, estiveram  no praça, realizando ações educativas como verificação de temperatura, verificação de pressão arterial e glicemia.
+                    
+                    <button type="submit">
+                        Confirmar
+                    </button>
 
-                        A ação foi coordenada pela Professora e Coordenadora do curso, Doutora Alessandra G. M. Moreira. 
-                    </span> 
-                    <span class="newdate"> Postado em: 21/10/2020</span>  
-                 </div>
-            </div>
-            <div class="news">
-                <div class="imgnews">
-                    <img src="assets/images/news/pedagogia.jpg" alt="Palestra de Pedagogia">
-                </div>
-                <div class="textnews">
-                    <h5>Pedagogia da UNITABA comemora o Dia do Professor com palestra. </h5> 
-                    <span>
-                        Em comemoração ao Dia do Professor, no dia 14 de outubro, o curso de Pedagogia da UNITABA - Faculdade de Tabatinga, recebeu a professora especialista Bruna Fernandes Reis, que ministrou uma palestra sobre o "Professor de AEE: desafios e possibilidades", com o intuito de compartilhar com os alunos os conhecimentos sobre a área de inclusão, assunto de relevante debate acadêmico.
-                    </span>  
-                    <span class="newdate"> Postado em: 05/10/2020</span> 
-                </div>
+                </form>
 
             </div>
+            <div class="img">
+                <img src="assets/images/student.png" alt="Estudante">
+
+            </div>
+                
+           
         </div>
+        
+       
     </main>
     <footer class="footer">
         <div>
